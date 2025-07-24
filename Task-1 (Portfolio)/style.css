@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e4d4c8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #523a28;
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 20px 60px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+section {
+  max-width: 1000px;
+  margin: 50px auto;
+  background: #a47551;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #1d2b64;
+  border-left: 5px solid #1d2b64;
+  padding-left: 15px;
+}
+
+#about img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto 30px;
+  object-fit: cover;
+  border: 5px solid #1d2b64;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+
+#skills li {
+  background: #1d2b64;
+  color: #a47551;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, transform 0.3s;
+}
+
+#skills li:hover {
+  background: #374785;
+  transform: scale(1.05);
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#resume a {
+  display: inline-block;
+  background: #2844b6;
+  color: #a47551;
+  padding: 14px 30px;
+  font-size: 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+}
+
+#resume a:hover {
+  background: linear-gradient(135deg, #5a67d8, #6b46c1);
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #1d2b64;
+  color: #a47551;
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 0.95rem;
+  margin-top: 60px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
